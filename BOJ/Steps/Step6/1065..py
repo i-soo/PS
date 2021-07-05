@@ -3,15 +3,15 @@
 def count_hansu(n):
         cnt = 0
         if (n < 100):
-                return n
+            cnt = n
         else:
-	         cnt = 99
-           for i in range(100, N+1)
-	            num_list = list(map(int, str(i)))
+	    cnt = 99
+            for i in range(100, n+1)
+	         num_list = list(map(int, str(i)))
 
-              if  num_list[0] - num_list[1] == num_list[1] - num_list[2] :
-                   cnt += 1
-           return cnt
+           	 if  num_list[0] - num_list[1] == num_list[1] - num_list[2] :
+                    cnt += 1
+        return cnt
  
 inp = int(input())
 result = count_hansu(inp)
