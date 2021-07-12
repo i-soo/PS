@@ -1,6 +1,6 @@
 n = int(input())
 
-current_num = 1  # 벌집 방의 번호, 1개부터 시작
+current_num = 1  # 벌집 방의 번호, 1부터 시작
 count = 1
 
 while n > current_num :
