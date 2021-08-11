@@ -5,7 +5,7 @@ def stars(n):
             matrix.append(n[i % len(n)] + ""*len(n) + n[i % len(n)])
         else:
              matrix.append(n[i % len(n)]*3)
-    return(list(matrix)
+    return(list(matrix))
 
 
 star = ["***", "* *", "***"]
